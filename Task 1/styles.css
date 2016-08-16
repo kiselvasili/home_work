@@ -1,0 +1,47 @@
+/* Rule 1 */
+tr:first-of-type {
+    font-weight: bold;
+}
+
+/* Rule 2 */
+tr td:first-child {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+/*tr td:first-of-type {
+    background: red;
+}*/
+
+/* Rule 3 */
+tr:nth-of-type(even),
+table tr:first-child {
+    background: white;
+}
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+/* Rule 4 */
+input:checked + label {
+    color: red;
+}
+
+/* Rule 5 */
+td a {
+    display: block;
+}
+
+td a:first-letter {
+    font-size: 300%;
+    font-weight: bold;
+    padding-right: 5px;
+    float: left;
+}
+
+/* Rule 6 */
+td a[title *= ",000,000"] {
+    color: red;
+}

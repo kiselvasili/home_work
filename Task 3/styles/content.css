@@ -1,0 +1,28 @@
+.content {
+    padding: 45px 25px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-container > .content-item {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.content .menu {
+    padding: 3px;
+    margin-bottom: 45px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .menu li {
+    padding: 10px;
+}

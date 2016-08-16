@@ -1,0 +1,139 @@
+body {
+    margin: 0%;
+}
+
+
+
+.login-class div {
+    margin-left: 10px;
+}
+
+.login-class {
+    background-color: #f2f2f2;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.email a {
+    color: #29bdca;
+    text-decoration: none;
+}
+
+.login-class {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-class {
+    display: flex;
+    flex-direction: row;
+    padding: 45px 0;
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 5px;
+    color: #808080;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.way-1 {
+    height: 37px;
+    background-color: #2095a0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.txt-decoration{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.way-2 {
+    height: 90px;
+    background-color: #29bdca;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio{
+    margin: 0;
+}
+
+
+.foot-1 {
+    color: #5ca3ad;
+    background-color: #cbf1f4;
+}
+
+.foot-1-1, .foot-2-2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*.foot-1-1 > span, .foot-2-2 > span {
+    padding: 10px;
+}*/
+
+/*.buy {
+    background-color: #1c818a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}*/
+
+.foot-2 {
+    color: white;
+    background-color: #29bdca;
+}
+
+/*.social-find {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}*/
+
+/*
+.social-find div, .social div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    background-color: #2095a0;
+    height: 40px;
+    width: 40px;
+}
+
+.social div {
+    background-color: #e5e5e5;
+    height: 30px;
+    width: 30px;
+}
+
+.social div a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.social div {
+    margin-left: 2px;
+}
+
+.social div a {
+    color: #808080;
+}*/

@@ -1,0 +1,19 @@
+.button {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    margin: 0 2px;
+}
+
+.button-sm {
+    padding: 5px;
+}
+
+.button-dark {
+    background-color: #1c818a;
+}
+
+.button-light-dark {
+    background-color: #2095a0;
+}

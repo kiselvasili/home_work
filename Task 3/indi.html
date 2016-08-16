@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--<div id="page-preloader">-->
+<div>
+    <span class="spinner">
+
+    </span>
+</div>
+
+<script>
+    $(window).on('load', function () {
+        var $preloader = $('#page-preloader'),
+                $spinner   = $preloader.find('.spinner');
+        $spinner.fadeOut();
+        $preloader.delay(350).fadeOut('slow');
+    });
+</script>
+
+
+
+    <style>
+        p b {
+            font-family: Times, serif; /* Семейство шрифта */
+            font-weight: bold; /* Жирное начертание */
+            color: red; /* Синий цвет текста */
+        }
+    </style>
+
+<div><b>Жирное начертание текста</b></div>
+<p><b>Одновременно жирное начертание текста
+    и выделенное цветом</b></p>
+
+
+
+
+<!--<style>
+    body * {
+        margin: 10px;
+        border: 1px solid blue;
+    }
+</style>-->
+
+<form onclick="alert('form')">FORM
+    <div onclick="alert('div')">DIV
+        <p onclick="alert('p')">P</p>
+    </div>
+</form>
+
+
+
+<div onclick="alert('Обработчик для Div сработал!')">
+    <em>Кликните на <code>EM</code>, сработает обработчик на <code>DIV</code></em>
+</div>
+
+
+
+<div id="xxx" onclick="alert(event)">
+    hui
+</div>
+
+
+<em>sdfsfsdfgsdfg</em>
+
+
+
+
+<ol id="lang">
+    <li>
+        slav lang
+       <ol>
+           <li>
+               slav microlang
+               <ol>
+                   <li id="microlang">
+                       slav micromicro
+                   </li>
+                   <li>
+                       slav micromicro 2
+                   </li>
+                   <li>
+                       slav micromicro 3
+                   </li>
+                   <li>
+                       slav micromicro 4
+                       <ol>
+                           <li>
+                               slav micromicromicro
+                           </li>
+                       </ol>
+                   </li>
+                   <li>
+                       slav micromicro 5
+                   </li>
+               </ol>
+           </li>
+       </ol>
+    </li>
+</ol>
+
+<style>
+    .transformer2{
+        background-color: #29bdca;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+    }
+    .transformer{
+        transform: rotate(45deg);
+    }
+</style>
+
+<style>
+    .ricky{
+        position: absolute;
+        top: 500px;
+    }
+</style>
+<style>
+    .div-one{
+        height: 300px;
+        width: 300px;
+        background-color: #29bdca;
+        position: relative;
+        top: 100px;
+        left: 50px;
+
+    }
+    .divtwo{
+        height: 100px;
+        width: 100px;
+        background-color: maroon;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+</style>
+
+<div class="ricky">
+    <!--<div class="transformer2"></div>
+    <div class="transformer transformer2"></div>
+    <div class="transformer2"></div>-->
+
+
+
+
+    <div class="div-one">
+        <div class="divtwo">
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<style type="text/css">
+    #rightcol {
+        position: absolute; /* Абсолютное позиционирование */
+        left: 350px; /* Положение левого края */
+        top: 50px; /* Положение верхнего края */
+        width: 120px; /* Ширина слоя */
+        height: 60px;
+        background: #e0e0e0; /* Цвет фона */
+        border: solid 1px #000; /* Параметры рамки */
+    }
+    #leftcol {
+        position: absolute; /* Абсолютное позиционирование */
+        left: 0; /* Положение левого края */
+        top: 0; /* Положение верхнего края */
+        height: 60px;
+        width: 400px; /* Ширина слоя */
+        background: #800000; /* Цвет фона */
+        color: white; /* Цвет текста */
+    }
+</style>
+<div id="leftcol">Левая колонка</div>
+<div id="rightcol">Правая колонка</div>
+
+
+
+
+
+</body>
+</html>

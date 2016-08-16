@@ -1,0 +1,46 @@
+.my-flex-container{
+    width: 96%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: space-between;*/
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('your-giffed-face.gif') no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.misha{
+}
+
+
+#lang li {
+    color: red;
+}
+#lang > li {
+    color: aqua;
+}
+#microlang~li{
+    color: chartreuse;
+}
